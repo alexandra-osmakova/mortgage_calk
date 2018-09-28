@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./calc.css/reset.css">
+    <link rel="stylesheet" href="./calc.css/ion.rangeSlider.skinNice.css" />
+    <link rel="stylesheet" href="./calc.css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="./calc.css/calc.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <section class="calc">
+        <div class="calc_wrap">
+            <h2>Ипотечный калькулятор</h2>
+            <div class="calc_section">
+                <div class="param">
+                    <div class="param_item">
+                        <h3>Стоимость квартиры</h3>
+                        <div class="calc_line">
+                            <input class = "count_input" type="text" id="price_id" name="price_id" value="" />
+                        </div>
+                    </div>
+                    <div class="param_item">
+                        <h3>Первоначальный взнос</h3>
+                        <div class="calc_line">
+                            <input class = "count_input" type="text" id="payment" name="payment" value="" />
+                        </div>
+                    </div>
+                    <div class="param_item">
+                        <h3>Срок ипотеки</h3>
+                        <div class="calc_line">
+                            <input class = "count_input" type="text" id="mortgage" name="mortgage" value="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="conditions">
+                    <div> 
+                        <span class="condition_type">Процентная ставка</span>
+                        <span class="condition_value_percent">от 4.5%</span>
+                    </div>
+                    <div>
+                        <span class="condition_type">Сумма ипотеки</span>
+                        <span class="condition_value_sum">0</span>
+                    </div>
+                    <div class="result">
+                        <span class="result_text">Ежемесячный платёж</span>
+                        <span class="result_num_payment">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="count_section">
+                <p>Отправьте заявку - <br>получие выгодные расчеты от банков-партнеров</p>
+                <button class="count_start">Получить расчет</button>
+            </div>
+        </div>
+    </section>
+    <script src="./calc.js/jquery-1.12.3.min.js"></script>
+    <script src="./calc.js/ion.rangeSlider.js"></script>
+    <script src="./calc.js/calc.js"></script>
+    
+</body>
+
+</html>
