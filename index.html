@@ -14,56 +14,164 @@
 </head>
 
 <body>
-    <header></header>
-    <section class="calc">
-        <div class="calc_wrap">
-            <h2>Ипотечный калькулятор</h2>
-            <div class="calc_section">
-                <div class="param">
-                    <div class="param_item">
-                        <h3>Стоимость квартиры</h3>
-                        <div class="calc_line">
-                            <input class = "count_input" type="text" id="price_id" name="price_id" value="" />
-                        </div>
+    <header>
+        <img src="./img/calk_logo.png" alt="">
+    </header>
+    <section class='mortgage_key'>
+        <h2 class="title_style">Ипотека с Ключем</h2>
+        <div class="morgage_steps_wrap">
+            <div class="mortgage_steps">
+                <div class="mortgage_steps_item">
+                    <div class="mortgage_steps_item_header">
+                        1.
+                        <div class="mortgage_step_img_first"></div>
                     </div>
-                    <div class="param_item">
-                        <h3>Первоначальный взнос</h3>
-                        <div class="calc_line">
-                            <input class = "count_input" type="text" id="payment" name="payment" value="" />
-                        </div>
-                    </div>
-                    <div class="param_item">
-                        <h3>Срок ипотеки</h3>
-                        <div class="calc_line">
-                            <input class = "count_input" type="text" id="mortgage" name="mortgage" value="" />
-                        </div>
+                    <div class="mortgage_step_content">
+                        <h3 class="small_title">Оцените ипотеку</h3>
+                        <p>Воспользуйтесь нашим калькулятором, чтобы оценить выгоду получения ипотеки с нами</p>
                     </div>
                 </div>
-                <div class="conditions">
-                    <div> 
-                        <span class="condition_type">Процентная ставка</span>
-                        <span class="condition_value_percent">от 4.5%</span>
+                <div class="mortgage_steps_item">
+                    <div class="mortgage_steps_item_header">
+                        2.
+                        <div class="mortgage_step_img_second"></div>
                     </div>
-                    <div>
-                        <span class="condition_type">Сумма ипотеки</span>
-                        <span class="condition_value_sum">0</span>
+                    <div class="mortgage_step_content">
+                        <h3 class="small_title">Оставьте заявку</h3>
+                        <p>Наши специалисты детально проработают вашу заявку и перезвонят вам, чтобы предложить лучшие
+                            варианты</p>
                     </div>
-                    <div class="result">
-                        <span class="result_text">Ежемесячный платёж</span>
-                        <span class="result_num_payment">0</span>
+                </div>
+                <div class="mortgage_steps_item">
+                    <div class="mortgage_steps_item_header">
+                        3.
+                        <div class="mortgage_step_img_third"></div>
+                    </div>
+                    <div class="mortgage_step_content">
+                        <h3 class="small_title">Получите ипотеку</h3>
+                        <p>Мы поможем оформить все необходимые документы, и вы получите жилье в минимальный срок</p>
                     </div>
                 </div>
             </div>
-            <div class="count_section">
-                <p>Отправьте заявку - <br>получие выгодные расчеты от банков-партнеров</p>
-                <button class="count_start">Получить расчет</button>
+        </div>
+    </section>
+    <div class="main_section_wrap">
+        <section class="calc">
+            <div class="calc_wrap">
+                <h2>Ипотечный калькулятор</h2>
+                <div class="calc_section">
+                    <div class="param">
+                        <div class="param_item">
+                            <h3>Стоимость квартиры</h3>
+                            <div class="calc_line">
+                                <input class="count_input" type="text" id="price_id" name="price_id" value="" />
+                            </div>
+                        </div>
+                        <div class="param_item">
+                            <h3>Первоначальный взнос</h3>
+                            <div class="calc_line">
+                                <input class="count_input" type="text" id="payment" name="payment" value="" />
+                            </div>
+                        </div>
+                        <div class="param_item">
+                            <h3>Срок ипотеки</h3>
+                            <div class="calc_line">
+                                <input class="count_input" type="text" id="mortgage" name="mortgage" value="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conditions">
+                        <div>
+                            <span class="condition_type">Процентная ставка</span>
+                            <span class="condition_value_percent">от 4.5%</span>
+                        </div>
+                        <div>
+                            <span class="condition_type">Сумма ипотеки</span>
+                            <span class="condition_value_sum">0</span>
+                        </div>
+                        <div class="result">
+                            <span class="result_text">Ежемесячный платёж</span>
+                            <span class="result_num_payment">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="count_section">
+                    <p>Отправьте заявку - <br>получие выгодные расчеты от банков-партнеров</p>
+                    <button class="count_start">Получить расчет</button>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners_wrap">
+                <h3>Наши партнеры</h3>
+                <div class="partners_content">
+                    <div class="partners_item">
+                        <div class="partner_img first_partner"></div>
+                        <span>Сбербанк</span>
+                    </div>
+                    <div class="partners_item">
+                        <div class="partner_img second_partner"></div>
+                        <span>ВТБ24</span>
+                    </div>
+                    <div class="partners_item">
+                        <div class="partner_img third_partner"></div>
+                        <span>Альфа Банк</span>
+                    </div>
+                    <div class="partners_item">
+                        <div class="partner_img fourth_partner"></div>
+                        <span>Тинькофф Банк</span>
+                    </div>
+                    <div class="partners_item">
+                        <div class="partner_img fifth_partner"></div>
+                        <span>Партнер</span>
+                    </div>
+                    <div class="partners_item">
+                        <div class="partner_img fifth_partner"></div>
+                        <span>Партнер</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="advantages">
+        <div class="advantages_item">
+            <div class="advantages_img_first"></div>
+            <p>25 банков-партнеров с выгодными условиями</p>
+        </div>
+        <div class="advantages_item">
+            <div class="advantages_img_second"></div>
+            <p>Минимальный процент по ипотеке</p>
+        </div>
+        <div class="advantages_item">
+            <div class="advantages_img_third"></div>
+            <p>Индивидуальное рассмотрение заявки нашими специалистами</p>
+        </div>
+        <div class="advantages_item">
+            <div class="advantages_img_fourth"></div>
+            <p>Посещение офиса для только для оформления ипотеки</p>
+        </div>
+        <div class="motivation">
+            <div class="motivation_content">
+                <h3>Мотивационное письмо</h3>
+                <p class="motivation_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor tortor
+                    quis orci tempor, ut posuere
+                    nunc maximus. Nullam consequat ultricies mauris, ac dignissim odio. Nunc in maximus lacus. Aenean
+                    sed
+                    lacus ut risus finibus hendrerit ac ut dui. Mauris vel convallis enim. Sed ut ornare nibh. Etiam at
+                    leo
+                    non risus blandit laoreet ac non tortor. Orci varius natoque penatibus et magnis dis parturient
+                    montes,
+                    nascetur ridiculus mus. </p>
+            </div>
+            <div class="motivation_img">
+                <img src="./img/fam.png" alt="">
             </div>
         </div>
     </section>
     <script src="./calc.js/jquery-1.12.3.min.js"></script>
     <script src="./calc.js/ion.rangeSlider.js"></script>
     <script src="./calc.js/calc.js"></script>
-    
+
 </body>
 
 </html>

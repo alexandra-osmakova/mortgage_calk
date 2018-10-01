@@ -25,7 +25,7 @@
         $("#mortgage").ionRangeSlider({
             min: 5,
             max: 25,
-            step: 5,
+            step: 1,
             prettify: true,
             from: 15,
             grid: true,
@@ -58,11 +58,9 @@
         var mortgage_time = mortgage.split(" ").join('');
 
         sum_of_mortgage = Number(price_to_count) - Number(payment_to_count);
-        condition_value.innerHTML = sum_of_mortgage + " руб.";
+        condition_value.innerHTML = sum_of_mortgage.toLocaleString() + " руб.";
 
-        result.innerHTML = Math.round(sum_of_mortgage / (12 * Number(mortgage_time))) + " руб.";
-
-        
+        result.innerHTML = Math.round(sum_of_mortgage / (12 * Number(mortgage_time))).toLocaleString() + " руб.";
         
     }
     
