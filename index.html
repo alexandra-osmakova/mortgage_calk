@@ -97,7 +97,7 @@
                 </div>
                 <div class="count_section">
                     <p>Отправьте заявку - <br>получие выгодные расчеты от банков-партнеров</p>
-                    <button class="count_start">Получить расчет</button>
+                    <button id="open_for_modal" class="count_start">Получить расчет</button>
                 </div>
             </div>
         </section>
@@ -168,6 +168,20 @@
             </div>
         </div>
     </section>
+
+   <section class="modal_window">
+        <h2>Получить рассчет ипотеки</h2>
+        <p>Оставьте свои контактные данные, и мы вышлем вам рассчет</p>
+        <div id="close_btn" class="close_btn">
+        </div>
+        <form id="prompt-form">
+            <input class="mortgage_data_input" name="text" type="text" placeholder="Имя">
+            <input class="mortgage_data_input" id="phone" name="text" type="text" placeholder="Телефон">
+            <input class="mortgage_data_input" name="text" type="text" placeholder="E-mail">
+            <input class="mortgage_submit_btn" type="submit" value="Заказать рассчет">
+        </form>
+    </section>
+    <div id="modal_overlay"></div>
     <script src="./calc.js/jquery-1.12.3.min.js"></script>
     <script src="./calc.js/ion.rangeSlider.js"></script>
     <script src="./calc.js/calc.js"></script>
