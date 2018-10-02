@@ -23,6 +23,7 @@ body {
 body {
     margin: 0;
     box-sizing: border-box;
+    font-family: "Gotham Pro";
 }
 
 header {
@@ -43,6 +44,7 @@ header img {
 
 .title_style {
     display: block;
+    width: 100%;
     margin-left: 6.75rem;
     margin-bottom: 0.93rem;
     font-weight: 200;
@@ -141,12 +143,19 @@ header img {
 }
 
 .calc {
+    position: relative;
     width: 70%;
     padding: 1rem;
-    max-height: 44.6rem;
+    height: 51.125rem;
+
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .calc_wrap {
+    height: 100%;
     padding: 2rem 2.3rem;
     background: #FAFAFA;
     box-shadow: 0 0.125rem 1rem 0 rgba(155, 155, 155, 0.50);
@@ -281,6 +290,9 @@ header img {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    bottom: 4rem;
+    left: -2rem;
 }
 
 .count_section p {
@@ -292,10 +304,9 @@ header img {
 
 .count_start {
     outline: none;
-    width: 40%;
+    width: 28%;
     height: 4rem;
-    margin-right: -0.125rem;
-    margin-top: 0.125rem;
+    margin-right: 0.875rem;
     background-color: #0DB8F7;
     color: #ffffff;
     font-size: 1.25rem;
@@ -389,12 +400,12 @@ header img {
 .partners {
     width: 30%;
     padding-top: 1rem;
+    height: 50.125rem;
 }
 
 .partners_wrap {
+    height: 100%;
     padding: 2rem 1rem;
-    height: 44.6rem;
-    max-height: 44.6rem;
     background: #FAFAFA;
     box-shadow: 0 0.125rem 1rem 0 rgba(155, 155, 155, 0.50);
     border-radius: 1rem;
@@ -422,6 +433,7 @@ header img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .partner_img {
@@ -593,8 +605,13 @@ header img {
 .motivation_img {
     position: absolute;
     top: -0.5rem;
-    right: -0.5rem;
+    right: -0.75rem;
+    bottom: -0.625rem;
     width: 50%;
+    background-image: url(../img/fam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .modal_window {
@@ -711,4 +728,1044 @@ header img {
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        height: 8.06rem;
+        padding: 2.2rem 7.56rem;
+
+    }
+    
+    header img {
+        width: 9.2%;
+    }
+
+    .mortgage_key {
+        padding: 4.3rem 0;
+    }
+
+    .title_style, .calc_wrap h2, .partners h3 {
+        font-size: 2.7rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .mortgage_step_img_first, .mortgage_step_img_third {
+        width: 8.75rem;
+        height: 10rem;
+    }
+
+    .mortgage_step_img_second {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .small_title, .mortgage_steps_item_header, .condition_value_percent, .condition_value_sum, .result_num_payment {
+        font-size: 2rem;
+    }
+
+    .mortgage_steps_item p, .param_item h3, .condition_type, .result_text, .count_start{
+        font-size: 1.5rem;
+    }
+
+    .param_item h3 {
+        line-height: 4rem;
+    }
+
+    .irs-grid-text {
+        font-size: 1rem;
+    }
+
+    .irs-grid {
+        top: 4rem;
+        height: 30px;
+        left: 3%!important;
+    }
+
+    .calc_line {
+        width: 94%;
+    }
+
+    .calc {
+        height: 55.125rem;
+    }
+    
+    .partners {
+        height: 54.125rem;
+    }
+
+    .count_section p {
+        font-size: 1.3rem;
+    }
+
+    .partners h3 {
+        width: 95%;
+    }
+
+    .advantages_img_first, .advantages_img_second, .advantages_img_third, .advantages_img_fourth {
+        width: 5.5rem;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        height: 7.6rem;
+        padding: 2.3rem 7.56rem;
+    }
+
+    header img {
+        width: 9.2%;
+    }
+
+    .title_style {
+        font-size: 2.4rem;
+    }
+
+    .mortgage_step_img_first, .mortgage_step_img_third {
+        width: 7.75rem;
+        height: 9rem;
+    }
+
+    .mortgage_step_img_second {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .small_title, .mortgage_steps_item_header, .calc_wrap h2 {
+        font-size: 1.725rem;
+    }
+
+    .mortgage_steps_item p, .motivation_text {
+        font-size: 1.2rem;
+    }
+
+    .param_item h3, .condition_type, .result_text, .count_section p, .count_start, .motivation_text{
+        font-size: 1.35rem;
+    }
+
+    .irs-from, .irs-to, .irs-single {
+        font-size: 1.6rem;
+    }
+
+    .irs-grid-text {
+        font-size: 0.725rem;
+    }
+
+    .condition_value_percent, .condition_value_sum {
+        font-size: 1.85rem;
+    }
+
+    .result_num_payment {
+        font-size: 2rem;
+    }
+
+    .count_start {
+        width: 35%;
+    }
+
+    .partners_content {
+        margin-top: 1rem;
+    }
+
+    .advantages_img_first, .advantages_img_second, .advantages_img_third, .advantages_img_fourth {
+        width: 5.5rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .calc, .partners {
+        width: 100%;
+        height: auto;
+    }
+
+    .partners_wrap {
+        height: auto;
+    }
+
+    .partners {
+        margin-top: 2rem;
+    }
+
+    .calc {
+        padding: 0;
+    }
+
+    .partners_item {
+        width: 16.6%;
+    }
+
+    .partner_img {
+        width: 4rem;
+        height: 4.375rem;
+    }
+
+    .partners h3 {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .partners_item span, .mortgage_steps_item p, .count_section p, .motivation_text {
+        font-size: 0.8rem;
+    }
+
+    .mortgage_step_img_first {
+        width: 4.75rem;
+        height: 6rem;
+    }
+
+    .mortgage_step_img_second {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .mortgage_step_img_third {
+        width: 4.75rem;
+        height: 6rem;
+    }
+
+    .mortgage_steps_item_header, .small_title {
+        font-size: 1.2rem;
+    }
+
+    .title_style {
+        font-size: 1.8rem;
+    }
+
+    .param_item h3, .irs-from, .irs-to, .irs-single, .condition_type, .result_text, .count_start, .advantages_item p, .motivation h3, .mortgage_data_input, .mortgage_submit_btn {
+        font-size: 1rem;
+    }
+
+    .irs-grid-text {
+        font-size: 0.5rem;
+    }
+
+    .calc_line {
+        padding: 0.5rem 0;
+        width: 110%;
+    }
+
+    .irs-single {
+        top: 0.5rem;
+    }
+
+    .param {
+        padding: 1rem 4.875rem 0rem 0rem;
+    }
+
+    .conditions {
+        padding: 1rem 2.125rem;
+    }
+
+    .conditions div {
+        margin-bottom: 1.5rem;
+    }
+
+    .count_start {
+        width: 33%;
+        margin-left: 2.56rem;
+    }
+
+    .advantages_img_first, .advantages_img_second, .advantages_img_third, .advantages_img_fourth {
+        width: 3.5rem;
+    }
+
+    .advantages_item {
+        padding: 1rem;
+    }
+
+    .motivation_content {
+        padding: 2.125rem;
+    }
+
+    .modal_window {
+        width: 80%;
+    }
+
+    .modal_window h2 {
+        font-size: 1.2rem;
+    }
+
+    .modal_window p {
+        font-size: 1rem;
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    body{
+        font-size: 12px;
+    }
+
+    .mortgage_steps_item, .main_section_wrap, .calc, .param, .conditions, .partners, .advantages_item {
+        width: 100%;
+    }
+
+    .calc {
+        padding: 0;
+        max-height: unset;
+    }
+
+    .calc_wrap, .partners_wrap {
+        border-radius: 0rem;
+    }
+
+    .param::after {
+        content: '';
+        width: 0;
+    }
+
+    .partners_item {
+        width: 33.3%;
+    }
+
+    .calc, .partners_wrap{
+        height: auto;
+    }
+
+    .partners {
+        margin-top: 20%;
+    }
+
+    .motivation, .count_section p {
+        display: none;
+    }
+
+    header {
+        padding: 1rem 1.75rem;
+        height: 3.75rem;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    .title_style {
+        margin-left: 1.75rem;;
+        font-size: 1.75rem;
+    }
+
+    .mortgage_step_img_first, .mortgage_step_img_third{
+        width: 3.75rem;
+        height: 4.187rem    ;
+    }
+
+    .morgage_steps_wrap {
+        background: #ffffff;
+    }
+
+    .mortgage_step_img_second {
+        width: 4.18rem;
+        height: 4.18rem;
+    }
+
+    .small_title {
+        font-size: 1.25rem;
+    }
+
+    .mortgage_steps_item p {
+        font-size: 0.625rem;
+    }
+
+    .mortgage_steps_item {
+        margin: 1.25rem auto 1.25rem;
+    }
+
+    .mortgage_step_content {
+        width: 85%;
+    }
+
+    .calc_wrap {
+        box-shadow: 0 0 3px 0 rgba(181, 181, 181, 0.5);
+    }
+
+    .calc_wrap h2 {
+        font-size: 1.5rem;
+    }
+
+    .param, .conditions {
+        padding: 1rem;
+    }
+
+    .param_item {
+        margin-right: 0;
+    }
+
+    .result {
+        margin-top: 0;
+    }
+
+    .conditions {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conditions div {
+        width: 50%;
+        height: 85px;
+    }
+
+    .count_start {
+        margin: 0;
+        width: 49%;
+        margin-top: -38%;
+    }
+
+    .partners h3 {
+        margin-top: -20%;
+        text-align: left;
+        font-size: 1.5rem;
+        margin-left: 1.75rem;
+    }
+
+    .partners_content {
+        padding-top: 10%;
+    }
+
+    .advantages_img_first, .advantages_img_second, .advantages_img_third, .advantages_img_fourth {
+        width: 3.5rem;
+        
+    }
+
+    .advantages_item p {
+        font-size: 1rem;
+    }
+
+    .advantages_item {
+        padding: 1rem;
+    }
+
+    .modal_window h2 {
+        font-size: 1.1rem;
+    }
+
+    .modal_window p {
+        font-size: 0.8rem;
+    }
+
+    .modal_window {
+        width: 90%;
+    }
+
+    .mortgage_data_input, .mortgage_submit_btn {
+        font-size: 1rem;
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    .close_btn {
+        right: 17px;
+        top: 17px;
+    }
+
+    .calc_wrap h2 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    body{
+        font-size: 12px;
+    }
+
+    .mortgage_steps_item, .main_section_wrap, .calc, .param, .conditions, .partners, .advantages_item {
+        width: 100%;
+    }
+
+    .calc {
+        padding: 0;
+        max-height: unset;
+    }
+
+    .calc_wrap, .partners_wrap {
+        border-radius: 0rem;
+    }
+
+    .calc_wrap {
+        padding: 1rem;
+    }
+
+    .param::after {
+        content: '';
+        width: 0;
+    }
+
+    .partners_item {
+        width: 33.3%;
+    }
+
+    .calc, .partners_wrap{
+        height: auto;
+    }
+
+    .partners {
+        margin-top: 20%;
+    }
+
+    .motivation, .count_section p {
+        display: none;
+    }
+
+    header {
+        padding: 1rem 1.75rem;
+        height: 3.75rem;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    .calc_wrap h2 {
+        text-align: center;
+    }
+
+    .title_style, .partners h3 {
+        margin-left: 1.5rem;;
+        font-size: 1.3rem;
+    }
+
+    .mortgage_step_img_first, .mortgage_step_img_third{
+        width: 3.75rem;
+        height: 4.187rem    ;
+    }
+
+    .morgage_steps_wrap {
+        background: #ffffff;
+    }
+
+    .mortgage_step_img_second {
+        width: 4.18rem;
+        height: 4.18rem;
+    }
+
+    .small_title, .mortgage_steps_item_header, .param_item h3 {
+        font-size: 1rem;
+    }
+
+    .mortgage_steps_item p {
+        font-size: 0.625rem;
+    }
+
+    .mortgage_steps_item {
+        margin: 1.25rem auto 1.25rem;
+    }
+
+    .mortgage_step_content {
+        width: 85%;
+    }
+
+    .calc_wrap {
+        box-shadow: 0 0 3px 0 rgba(181, 181, 181, 0.5);
+    }
+
+    .calc_wrap h2, .irs-from, .irs-to, .irs-single {
+        font-size: 1.3rem;
+    }
+
+    .param, .conditions {
+        padding: 1rem;
+    }
+
+    .param_item {
+        margin-right: 0;
+    }
+
+    .result {
+        margin-top: 0;
+    }
+
+    .conditions {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conditions div {
+        width: 50%;
+        height: 85px;
+    }
+
+    .count_start {
+        margin: 0;
+        width: 49%;
+        margin-top: -38%;
+        font-size: 1.1rem;
+    }
+
+    .partners h3 {
+        margin-top: -20%;
+        text-align: left;
+        margin-left: 1.75rem;
+    }
+
+    .partners_item span {
+        font-size: 1.1rem;
+    }
+
+    .partners_content {
+        padding-top: 10%;
+    }
+
+    .advantages_img_first, .advantages_img_second, .advantages_img_third, .advantages_img_fourth {
+        width: 3.5rem;
+        
+    }
+
+    .advantages_item p {
+        font-size: 1rem;
+    }
+
+    .advantages_item {
+        padding: 1rem;
+    }
+
+    .modal_window h2 {
+        font-size: 1.1rem;
+    }
+
+    .modal_window p {
+        font-size: 0.8rem;
+    }
+
+    .modal_window {
+        width: 90%;
+    }
+
+    .mortgage_data_input, .mortgage_submit_btn {
+        font-size: 1rem;
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    .close_btn {
+        right: 17px;
+        top: 17px;
+    }
+
+    .condition_type, .result_text {
+        font-size: 1.1rem;
+    }
+
+    .condition_value_percent, .condition_value_sum, .result_num_payment {
+        font-size: 1.5rem;
+    }
+
+    .partner_img {
+        width: 4rem;
+        height: 4.375rem;
+    }
+
+    .mortgage_data_input, .mortgage_submit_btn {
+        width: 90%;
+        height: 2.5rem;
+    }
+
+    .close_btn:before, .close_btn:after {
+        height: 25px;
+        left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    body{
+        font-size: 12px;
+    }
+
+    .mortgage_steps_item, .main_section_wrap, .calc, .param, .conditions, .partners, .advantages_item {
+        width: 100%;
+    }
+
+    .irs-grid-text {
+        font-size: 0.5rem;
+    }
+
+    .calc {
+        padding: 0;
+        max-height: unset;
+    }
+
+    .calc_wrap, .partners_wrap {
+        border-radius: 0rem;
+    }
+
+    .calc_wrap {
+        padding: 1rem;
+    }
+
+    .param::after {
+        content: '';
+        width: 0;
+    }
+
+    .partners_item {
+        width: 33.3%;
+    }
+
+    .calc, .partners_wrap{
+        height: auto;
+    }
+
+    .partners {
+        margin-top: 20%;
+    }
+
+    .motivation, .count_section p {
+        display: none;
+    }
+
+    header {
+        padding: 1rem 1.75rem;
+        height: 3.75rem;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    .calc_wrap h2 {
+        text-align: center;
+    }
+
+    .title_style, .partners h3 {
+        margin-left: 1.5rem;;
+        font-size: 1.3rem;
+    }
+
+    .mortgage_step_img_first, .mortgage_step_img_third{
+        width: 3.75rem;
+        height: 4.187rem    ;
+    }
+
+    .morgage_steps_wrap {
+        background: #ffffff;
+    }
+
+    .mortgage_step_img_second {
+        width: 4.18rem;
+        height: 4.18rem;
+    }
+
+    .small_title, .mortgage_steps_item_header, .param_item h3 {
+        font-size: 1rem;
+    }
+
+    .mortgage_steps_item p {
+        font-size: 0.625rem;
+    }
+
+    .mortgage_steps_item {
+        margin: 1.25rem auto 1.25rem;
+    }
+
+    .mortgage_step_content {
+        width: 85%;
+    }
+
+    .calc_wrap {
+        box-shadow: 0 0 3px 0 rgba(181, 181, 181, 0.5);
+    }
+
+    .calc_wrap h2, .irs-from, .irs-to, .irs-single {
+        font-size: 1.3rem;
+    }
+
+    .param, .conditions {
+        padding: 1rem;
+    }
+
+    .param_item {
+        margin-right: 0;
+    }
+
+    .result {
+        margin-top: 0;
+    }
+
+    .conditions {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conditions div {
+        width: 50%;
+        height: 85px;
+    }
+
+    .count_start {
+        margin: 0;
+        width: 49%;
+        margin-top: -38%;
+        font-size: 1.1rem;
+    }
+
+    .partners h3 {
+        margin-top: -20%;
+        text-align: left;
+        margin-left: 1.75rem;
+    }
+
+    .partners_item span {
+        font-size: 1.1rem;
+    }
+
+    .partners_content {
+        padding-top: 10%;
+    }
+
+    .advantages_img_first, .advantages_img_second, .advantages_img_third, .advantages_img_fourth {
+        width: 3.5rem;
+        
+    }
+
+    .advantages_item p {
+        font-size: 1rem;
+    }
+
+    .advantages_item {
+        padding: 1rem;
+    }
+
+    .modal_window h2 {
+        font-size: 1.1rem;
+    }
+
+    .modal_window p {
+        font-size: 0.8rem;
+    }
+
+    .modal_window {
+        width: 90%;
+    }
+
+    .mortgage_data_input, .mortgage_submit_btn {
+        font-size: 1rem;
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    .close_btn {
+        right: 17px;
+        top: 17px;
+    }
+
+    .condition_type, .result_text {
+        font-size: 1.1rem;
+    }
+
+    .condition_value_percent, .condition_value_sum, .result_num_payment {
+        font-size: 1.5rem;
+    }
+
+    .partner_img {
+        width: 4rem;
+        height: 4.375rem;
+    }    body{
+        font-size: 12px;
+    }
+
+    .mortgage_steps_item, .main_section_wrap, .calc, .param, .conditions, .partners, .advantages_item {
+        width: 100%;
+    }
+
+    .calc {
+        padding: 0;
+        max-height: unset;
+    }
+
+    .calc_wrap, .partners_wrap {
+        border-radius: 0rem;
+    }
+
+    .calc_wrap {
+        padding: 1rem;
+    }
+
+    .param::after {
+        content: '';
+        width: 0;
+    }
+
+    .partners_item {
+        width: 50%;
+    }
+
+    .calc, .partners_wrap{
+        height: auto;
+    }
+
+    .partners {
+        margin-top: 20%;
+    }
+
+    .motivation, .count_section p {
+        display: none;
+    }
+
+    header {
+        padding: 1rem 1.75rem;
+        height: 3.75rem;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    .calc_wrap h2 {
+        text-align: center;
+    }
+
+    .title_style, .partners h3 {
+        margin-left: 1.5rem;;
+        font-size: 1.3rem;
+    }
+
+    .mortgage_step_img_first, .mortgage_step_img_third{
+        width: 3.75rem;
+        height: 4.187rem    ;
+    }
+
+    .morgage_steps_wrap {
+        background: #ffffff;
+    }
+
+    .mortgage_step_img_second {
+        width: 4.18rem;
+        height: 4.18rem;
+    }
+
+    .small_title, .mortgage_steps_item_header, .param_item h3 {
+        font-size: 1rem;
+    }
+
+    .mortgage_steps_item p {
+        font-size: 0.625rem;
+    }
+
+    .mortgage_steps_item {
+        margin: 1.25rem auto 1.25rem;
+    }
+
+    .mortgage_step_content {
+        width: 85%;
+    }
+
+    .calc_wrap {
+        box-shadow: 0 0 3px 0 rgba(181, 181, 181, 0.5);
+    }
+
+    .calc_wrap h2, .irs-from, .irs-to, .irs-single {
+        font-size: 1.3rem;
+    }
+
+    .param, .conditions {
+        padding: 1rem;
+    }
+
+    .param_item {
+        margin-right: 0;
+    }
+
+    .result {
+        margin-top: 0;
+    }
+
+    .conditions {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conditions div {
+        width: 50%;
+        height: 85px;
+    }
+
+    .count_start {
+        margin: 0;
+        width: 50%;
+        margin-top: -46%;
+        font-size: 1.1rem;
+    }
+
+    .partners h3 {
+        margin-top: -24%;
+        text-align: left;
+        margin-left: 1.75rem;
+    }
+
+    .partners_item span {
+        font-size: 1.1rem;
+    }
+
+    .partners_content {
+        padding-top: 10%;
+    }
+
+    .advantages_img_first, .advantages_img_second, .advantages_img_third, .advantages_img_fourth {
+        width: 3.5rem;
+        
+    }
+
+    .advantages_item p {
+        font-size: 0.8rem;
+    }
+
+    .advantages_item {
+        padding: 1rem;
+    }
+
+    .modal_window h2 {
+        font-size: 1.1rem;
+    }
+
+    .modal_window p {
+        font-size: 0.8rem;
+    }
+
+    .modal_window {
+        width: 90%;
+    }
+
+    .mortgage_data_input, .mortgage_submit_btn {
+        font-size: 1rem;
+        padding: 0;
+        padding-left: 1rem;
+        width: 90%;
+        height: 2.5rem;
+    }
+
+    .close_btn:before, .close_btn:after {
+        height: 25px;
+    }
+
+    .close_btn {
+        right: 17px;
+        top: 17px;
+    }
+
+    .condition_type, .result_text {
+        font-size: 1rem;
+    }
+
+    .condition_value_percent, .condition_value_sum, .result_num_payment {
+        font-size: 1.5rem;
+    }
+
+    .partner_img {
+        width: 4rem;
+        height: 4.375rem;
+    }
 }

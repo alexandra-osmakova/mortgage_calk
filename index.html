@@ -134,6 +134,7 @@
         </section>
     </div>
     <section class="advantages">
+        <h2 class="title_style">Почему мы?</h2>
         <div class="advantages_item">
             <div class="advantages_img_first"></div>
             <p>25 банков-партнеров с выгодными условиями</p>
@@ -163,9 +164,7 @@
                     montes,
                     nascetur ridiculus mus. </p>
             </div>
-            <div class="motivation_img">
-                <img src="./img/fam.png" alt="">
-            </div>
+            <div class="motivation_img"></div>
         </div>
     </section>
 
@@ -174,10 +173,10 @@
         <p>Оставьте свои контактные данные, и мы вышлем вам рассчет</p>
         <div id="close_btn" class="close_btn">
         </div>
-        <form id="prompt-form">
-            <input class="mortgage_data_input" name="text" type="text" placeholder="Имя">
+        <form id="prompt-form" method='post' action="/mail.php">
+            <input class="mortgage_data_input" name="name" type="text" placeholder="Имя">
             <input class="mortgage_data_input" id="phone-number" name="phone-number" type="text" maxlength="14" placeholder="Телефон"/>
-            <input class="mortgage_data_input" name="text" type="text" placeholder="E-mail">
+            <input class="mortgage_data_input" name="email" type="text" placeholder="E-mail">
             <input class="mortgage_submit_btn" type="submit" value="Заказать рассчет">
         </form>
     </section>
