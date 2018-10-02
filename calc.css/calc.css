@@ -49,7 +49,6 @@ header img {
     font-size: 2.25rem;
     color: #0DB8F7;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 
 }
 
@@ -57,7 +56,6 @@ header img {
     font-size: 1.625rem;
     color: #0DB8F7;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 }
 
 .morgage_steps_wrap {
@@ -94,7 +92,6 @@ header img {
     font-size: 1.625rem;
     color: #4A4A4A;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 }
 
 
@@ -134,7 +131,6 @@ header img {
     font-size: 1rem;
     color: #4A4A4A;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 }
 
 .main_section_wrap {
@@ -146,7 +142,8 @@ header img {
 
 .calc {
     width: 70%;
-    padding: 1rem 1rem 5rem;
+    padding: 1rem;
+    max-height: 44.6rem;
 }
 
 .calc_wrap {
@@ -169,7 +166,7 @@ header img {
     color: #0DB8F7;
     display: block;
     width: 100%;
-    font-family: "Gotham Pro";
+
 }
 
 
@@ -210,7 +207,6 @@ header img {
     font-weight: 300;
     line-height: 2rem;
     color: #4A4A4A;
-    font-family: "Gotham Pro";
 }
 
 
@@ -228,7 +224,6 @@ header img {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
-    font-family: "Gotham Pro";
 }
 
 .param_scale {
@@ -248,7 +243,6 @@ header img {
     color: #4A4A4A;
     letter-spacing: 0;
     margin-bottom: 0.88rem;
-    font-family: "Gotham Pro";
 }
 
 .condition_value_percent,
@@ -256,7 +250,6 @@ header img {
     font-size: 1.75rem;
     color: #4A4A4A;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 }
 
 .conditions div {
@@ -274,7 +267,6 @@ header img {
     display: block;
     width: 100%;
     margin-bottom: 0.625rem;
-    font-family: "Gotham Pro";
 }
 
 .result_num_payment {
@@ -283,7 +275,6 @@ header img {
     color: #0DB8F7;
     font-size: 1.875rem;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 }
 
 .count_section {
@@ -293,7 +284,6 @@ header img {
 }
 
 .count_section p {
-    font-family: "Gotham Pro";
     font-size: 1rem;
     color: #9B9B9B;
     letter-spacing: 0;
@@ -374,12 +364,6 @@ header img {
 
 .irs-grid-text {
     font-size: 0.625rem;
-    color: #4A4A4A;
-    letter-spacing: 0;
-    text-align: center;
-
-    font-family: "Gotham Pro";
-    font-size: 0.625rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -409,7 +393,8 @@ header img {
 
 .partners_wrap {
     padding: 2rem 1rem;
-    height: 44rem;
+    height: 44.6rem;
+    max-height: 44.6rem;
     background: #FAFAFA;
     box-shadow: 0 0.125rem 1rem 0 rgba(155, 155, 155, 0.50);
     border-radius: 1rem;
@@ -423,7 +408,6 @@ header img {
     text-align: center;
     color: #4A4A4A;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 }
 
 .partners_content {
@@ -482,7 +466,6 @@ header img {
 }
 
 .partners_item span {
-    font-family: "Gotham Pro";
     width: 100%;
     display: block;
     font-size: 1.25rem;
@@ -493,7 +476,7 @@ header img {
 
 .advantages {
     width: 80%;
-    margin: 0 auto;
+    margin: 5rem auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -554,7 +537,6 @@ header img {
 .advantages_item p {
     width: 65%;
     display: block;
-    font-family: "Gotham Pro";
     font-size: 1.375rem;
     font-weight: 300;
     font-style: normal;
@@ -593,11 +575,9 @@ header img {
     line-height: normal;
     letter-spacing: normal;
     color: #4a4a4a;
-    font-family: "Gotham Pro";
 }
 
 .motivation_text {
-    font-family: "Gotham Pro";
     display: block;
     width: 100%;
     margin: 0;
@@ -608,7 +588,6 @@ header img {
     line-height: normal;
     letter-spacing: normal;
     color: #4a4a4a;
-    font-family: "Gotham Pro";
 }
 
 .motivation_img {
@@ -649,7 +628,6 @@ header img {
     text-align: center;
     color: #4A4A4A;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
 }
 
 .modal_window p {
@@ -659,7 +637,6 @@ header img {
     font-size: 1.3rem;
     color: #4A4A4A;
     letter-spacing: 0;
-    font-family: "Gotham Pro";
     text-align: center;
 }
 
@@ -673,6 +650,7 @@ header img {
     width: 70%;
     height: 3rem;
     border: 2px solid #F0F0F0;
+    color: #4A4A4A;
     margin: 1rem auto;
     font-size: 1.25rem;
     letter-spacing: normal;

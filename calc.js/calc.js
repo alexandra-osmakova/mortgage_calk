@@ -31,6 +31,59 @@ $(document).ready(function () {
     });
 });
 
+$('#phone-number')
+
+	.keydown(function (e) {
+		var key = e.which || e.charCode || e.keyCode || 0;
+        $phone = $(this);
+
+    if ($phone.val().length === 1 && (key === 8 || key === 46)) {
+			$phone.val('('); 
+      return false;
+		} 
+    else if ($phone.val().charAt(0) !== '(') {
+			$phone.val('('+String.fromCharCode(e.keyCode)+''); 
+		}
+
+		if (key !== 8 && key !== 9) {
+			if ($phone.val().length === 4) {
+				$phone.val($phone.val() + ')');
+			}
+			if ($phone.val().length === 5) {
+				$phone.val($phone.val() + ' ');
+			}			
+			if ($phone.val().length === 9) {
+				$phone.val($phone.val() + '-');
+			}
+		}
+
+		return (key == 8 || 
+				key == 9 ||
+				key == 46 ||
+				(key >= 48 && key <= 57) ||
+				(key >= 96 && key <= 105));	
+	})
+	
+	.bind('focus click', function () {
+		$phone = $(this);
+		
+		if ($phone.val().length === 0) {
+			$phone.val('+7(___) ___-___-____');
+		}
+		else {
+			var val = $phone.val();
+			$phone.val('').val(val); 
+		}
+	})
+	
+	.blur(function () {
+		$phone = $(this);
+		
+		if ($phone.val() === '+7(___)') {
+			$phone.val('');
+		}
+	});
+
 
 
 
@@ -42,9 +95,7 @@ var sum_of_mortgage = 0;
 var price_to_count = 0;
 var payment_to_count = 0;
 
-
-count_start.addEventListener('click', count);
-count_start.addEventListener("click", modal_on);
+ var a = document.getElementById('price_id');
 
 function count() {
     var price_start = count_items[0].innerHTML.indexOf(' руб.');
@@ -70,17 +121,16 @@ var modal_window = document.getElementsByClassName('modal_window')[0];
 var modal_overlay = document.getElementById('modal_overlay');
 var close_modal_btn = document.getElementById('close_btn');
 
-function modal_on () {
+count_start.addEventListener("click", modal_on);
+close_modal_btn.addEventListener('click', close_modal);
+
+
+function modal_on() {
     modal_window.classList.add('modal_visible');
     modal_overlay.classList.add('modal_overlay');
 }
 
-close_modal_btn.addEventListener('click', close_modal);
-
-console.log(close_modal)
-
-function close_modal () {
-    console.log(111)
+function close_modal() {
     modal_window.classList.remove('modal_visible');
     modal_overlay.classList.remove('modal_overlay');
 }

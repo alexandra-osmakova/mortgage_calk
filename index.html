@@ -64,19 +64,19 @@
                         <div class="param_item">
                             <h3>Стоимость квартиры</h3>
                             <div class="calc_line">
-                                <input class="count_input" type="text" id="price_id" name="price_id" value="" />
+                                <input class="count_input" type="text" id="price_id" name="price_id" value="" onchange="count()" />
                             </div>
                         </div>
                         <div class="param_item">
                             <h3>Первоначальный взнос</h3>
                             <div class="calc_line">
-                                <input class="count_input" type="text" id="payment" name="payment" value="" />
+                                <input class="count_input" type="text" id="payment" name="payment" value="" onchange="count()"/>
                             </div>
                         </div>
                         <div class="param_item">
                             <h3>Срок ипотеки</h3>
                             <div class="calc_line">
-                                <input class="count_input" type="text" id="mortgage" name="mortgage" value="" />
+                                <input class="count_input" type="text" id="mortgage" name="mortgage"  value="" onchange="count()"/>
                             </div>
                         </div>
                     </div>
@@ -169,14 +169,14 @@
         </div>
     </section>
 
-   <section class="modal_window">
+    <section class="modal_window">
         <h2>Получить рассчет ипотеки</h2>
         <p>Оставьте свои контактные данные, и мы вышлем вам рассчет</p>
         <div id="close_btn" class="close_btn">
         </div>
         <form id="prompt-form">
             <input class="mortgage_data_input" name="text" type="text" placeholder="Имя">
-            <input class="mortgage_data_input" id="phone" name="text" type="text" placeholder="Телефон">
+            <input class="mortgage_data_input" id="phone-number" name="phone-number" type="text" maxlength="14" placeholder="Телефон"/>
             <input class="mortgage_data_input" name="text" type="text" placeholder="E-mail">
             <input class="mortgage_submit_btn" type="submit" value="Заказать рассчет">
         </form>
