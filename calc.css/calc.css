@@ -186,6 +186,7 @@ header img {
 }
 
 .main_section_wrap {
+    max-width: 1600px;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -194,6 +195,7 @@ header img {
 }
 
 .calc {
+    min-width: 574px;
     position: relative;
     width: 70%;
     padding: 1rem;
@@ -205,7 +207,7 @@ header img {
     transition: all 0.5s ease;
 }
 
-.calc_section {
+.calc_section { 
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -409,7 +411,7 @@ header img {
     top: 3rem;
     width: 1.375rem;
     left: 0;
-    background-position: 0px -3.5rem;
+    background-position: 0 -3.5rem;
     transform: rotate(180deg);
 }
 
@@ -716,7 +718,7 @@ header img {
     border-radius: 0.2rem;
     width: 70%;
     height: 3rem;
-    border: 2px solid #F0F0F0;
+    border: 0.125rem solid #F0F0F0;
     color: #4A4A4A;
     margin: 1rem auto;
     font-size: 1.25rem;
@@ -791,7 +793,7 @@ header img {
 
     .irs-line-right {
         height: 15px;
-        background-position: 66px 7px;
+        background-position: 66px 7px;      /* px used instead of rem */
     }
 
     .irs-grid {
@@ -805,20 +807,20 @@ header img {
 
     .irs-line-left {
         height: 15px;
-        background-position: -4px -49px;
-        left: 0px;
+        background-position: -4px -49px;      /* px used instead of rem */
+        left: 0;
 }
 
     .irs-slider {
         top: 100px !important;
         background-position: 10px -2.18rem !important;
         width: 2rem;
-        height: 46px;
+        height: 46px;     /* px used instead of rem */
     }
 
     .irs-slider:hover {
         top: 100px !important;
-        background-position: 10px -2.18rem !important;
+        background-position: 10px -2.18rem !important; 
     }
 
 
@@ -874,7 +876,7 @@ header img {
 
     .irs-line-right {
         height: 15px;
-        background-position: 48px 6px;
+        background-position: 48px 6px;      
     }
 
     .irs-grid {
@@ -896,7 +898,7 @@ header img {
         top: 69px !important;
         background-position: 5px -2.18rem !important;
         width: 2rem;
-        height: 46px;
+        height: 46px;   
     }
 
     .irs-slider:hover {
@@ -912,7 +914,7 @@ header img {
     .irs-bar {
         height: 31px;
         top: 79px;
-        background-position: -10px -39px;
+        background-position: -10px -39px; 
     }
 
     .count_section {
@@ -947,9 +949,9 @@ header img {
     
 }
 
-@media screen and (min-width: 801px) and (max-width: 1024px) {
+@media screen and (min-width: 965px) {
     html, body {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .main_section_wrap {
@@ -968,6 +970,25 @@ header img {
         display: none;
     }
 
+}
+
+@media screen and (min-width: 801px) and (max-width: 964px) {
+    html, body {
+        font-size: 16px;
+    }
+
+    .calc, .partners{
+        width: 100%;
+    }
+
+    .partners {
+        height: auto;
+    }
+
+    .partners_item {
+        width: 33%;
+    }
+    
 }
 
 
@@ -1068,7 +1089,7 @@ header img {
         width: 26px;
         height: 13px;
         background-position: 35px -56px;
-    }
+    } 
 
     .modal_window {
         width: 70%;
@@ -1112,6 +1133,7 @@ header img {
     .calc {
         padding: 0;
         max-height: unset;
+        min-width: unset;
     }
 
     .param::after {
@@ -1182,7 +1204,7 @@ header img {
     .irs-line-right {
         height: 16px;
         background-position: 33px -1px;
-        width: 32px;
+        width: 54px;
     }
 
     .irs-line-left {
@@ -1190,7 +1212,8 @@ header img {
     }
 
     .irs-line-mid {
-        left: 7%;
+        left: 4%;
+        width: 100%
     }
 
     .irs-bar {
@@ -1256,6 +1279,7 @@ header img {
     .calc {
         padding: 0;
         max-height: unset;
+        min-width: unset;
     }
 
     .param::after {
@@ -1332,6 +1356,11 @@ header img {
         display: none;
     }
 
+    .irs-line-mid {
+        left: 5%;
+        width: 91%;
+    }
+
     .irs-bar {
         height: 15px;
         top: 2.3125rem;
@@ -1395,6 +1424,7 @@ header img {
     .calc {
         padding: 0;
         max-height: unset;
+        min-width: unset;
     }
 
     .param::after {
@@ -1462,6 +1492,11 @@ header img {
 
     .irs-line-left {
         display: none;
+    }
+
+    .irs-line-mid {
+        left: 6%;
+        width: 100%;
     }
 
     .irs-bar {
