@@ -51,8 +51,127 @@ header img {
 }
 
 .mortgage_key {
-    width: 100%;
+    width: 80%;
     padding: 3.3rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mortgage_key::after {
+    content: "";
+    width: 100%;
+    height: 0.0625rem;
+    border: solid 0.0625rem rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
+.mortgage_steps, .mortgage_promo_img_section {
+    width: 50%; 
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.mortgage_promo_img_section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.promo_img {
+    width: 100%;
+    height: 25rem;
+    /*background-image: url();
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: #9B9B9B;
+}
+
+.promo_img_section__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.mortgage_steps_item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 0;
+}
+
+.mortgage_steps_item__text {
+    width: 60%;
+    padding-left: 1rem;
+}
+
+.mortgage_steps_item__img {
+    width: 5.625rem;
+    height: 6.125rem;
+}
+
+.first_step_img {
+    background-image: url(../img/Building.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second_step_img {
+    background-image: url(../img/Percent.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.third_step_img {
+    background-image: url(../img/Passport.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fourth_step_img {
+    background-image: url(../img/List.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fifth_step_img {
+    background-image: url(../img/Lock.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.small_title {
+    font-family: "Gotham Pro";
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    margin: 0.75rem auto;
+}
+
+.text_cont {
+    font-family: "Gotham Pro";
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
 }
 
 .title_style {
@@ -64,90 +183,6 @@ header img {
     font-size: 2.25rem;
     color: #0DB8F7;
     letter-spacing: 0;
-
-}
-
-.small_title {
-    font-size: 1.625rem;
-    color: #0DB8F7;
-    letter-spacing: 0;
-    font-weight: bold;
-}
-
-.morgage_steps_wrap {
-    background: #FAFAFA;
-    width: 100%;
-}
-
-.mortgage_steps {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.mortgage_steps_item {
-    width: 33%;
-    margin: 3.75rem auto 3.125rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.mortgage_step_content {
-    padding: 0.5rem 1rem;
-}
-
-.mortgage_steps_item_header {
-    padding-left: 1rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin-bottom: 1.18rem;
-    font-size: 1.625rem;
-    color: #4A4A4A;
-    letter-spacing: 0;
-    font-weight: bold;
-}
-
-
-.mortgage_step_img_first {
-    width: 6.75rem;
-    height: 8rem;
-    background-image: url(../img/calk_img.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 1.25rem;
-}
-
-.mortgage_step_img_second {
-    width: 7rem;
-    height: 7rem;
-    background-image: url(../img/phone_img.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 1.25rem;
-}
-
-.mortgage_step_img_third {
-    width: 6.75rem;
-    height: 8rem;
-    background-image: url(../img/building.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 1.25rem;
-}
-
-
-.mortgage_steps_item p {
-    margin-top: 0.93rem;
-    font-size: 1rem;
-    color: #4A4A4A;
-    letter-spacing: 0;
 }
 
 .main_section_wrap {
@@ -155,6 +190,7 @@ header img {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 8rem;
 }
 
 .calc {
@@ -169,21 +205,14 @@ header img {
     transition: all 0.5s ease;
 }
 
-.calc_wrap {
-    height: 100%;
-    padding: 2rem 2.3rem;
-    background: #FAFAFA;
-    box-shadow: 0 0.125rem 1rem 0 rgba(155, 155, 155, 0.50);
-    border-radius: 1rem;
-}
-
 .calc_section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 1rem;
 }
 
-.calc_wrap h2 {
+.calc h2 {
     font-size: 1.75rem;
     letter-spacing: 0.125rem;
     font-weight: 300;
@@ -318,19 +347,25 @@ header img {
     font-weight: normal;
 }
 
-.count_start {
-    outline: none;
+.btn {
+    cursor: pointer;
     width: 14rem;
     height: 4rem;
-    margin-right: -0.125rem;
     background-color: #0DB8F7;
     color: #ffffff;
-    font-size: 1.25rem;
+    font-size: 1rem;
     letter-spacing: normal;
     text-align: center;
-    margin-left: 4.5rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.25rem 0 #0DB8F7;
+    text-transform: uppercase;
+}
+
+.count_start {
+    outline: none;
+    margin-right: -0.125rem;
+    margin-left: 4.5rem;
+
 }
 
 .irs-line-mid {
@@ -421,16 +456,8 @@ header img {
 
 .partners {
     width: 30%;
-    padding-top: 1rem;
+    padding: 1rem;
     height: 50.125rem;
-}
-
-.partners_wrap {
-    height: 100%;
-    padding: 2rem 1rem;
-    background: #FAFAFA;
-    box-shadow: 0 0.125rem 1rem 0 rgba(155, 155, 155, 0.50);
-    border-radius: 1rem;
 }
 
 .partners h3 {
@@ -808,6 +835,31 @@ header img {
     .irs-bar-edge {
         top: 3.2rem;
     }
+
+    .param {
+        padding: 1rem 3rem 1rem 1rem;
+    }
+
+    .param::after {
+        right: -1.38rem;
+    }
+
+    .count_section {
+        width: 95%;
+    }
+
+    .count_start {
+        width: 18rem;
+    }
+
+    .partner_img {
+        width: 5rem;
+        height: 5.375rem;
+    }
+
+    .partners_item span {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 1801px) and (max-width: 2000px) {
@@ -862,6 +914,24 @@ header img {
         top: 79px;
         background-position: -10px -39px;
     }
+
+    .count_section {
+        width: 95%;
+    }
+
+    .count_start {
+        width: 18rem;
+    }
+
+    .partner_img {
+        width: 5rem;
+        height: 5.375rem;
+    }
+
+    .partners_item span {
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (min-width: 1601px) and (max-width: 1800px) {
@@ -870,30 +940,86 @@ header img {
         font-size: 24px;
     }
 
+    .main_section_wrap {
+        width: 85%;
+    }
+
     
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 801px) and (max-width: 1024px) {
     html, body {
         font-size: 14px;
+    }
+
+    .main_section_wrap {
+        width: 85%;
+    }
+
+    .count_section {
+        width: 95%;
+    }
+
+    .partners, .param {
+        padding: 1rem 0 0;
+    }
+
+    .param::after{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    .calc h2 {
+        text-align: center;
+    }
+
+    .main_section_wrap {
+        width: 90%;
+    }
+
+    .calc_section {
+        padding: 0;
+    }
+
+    .mortgage_steps, .mortgage_promo_img_section {
+        width: 100%;
+    }
+
+    .mortgage_steps {
+        flex-direction: column-reverse;
+    }
+
+    .mortgage_key::after {
+        display: none;
     }
     
     .calc, .partners {
         width: 100%;
-        height: 40rem;
+        height: 45rem;
     }
 
     .partners {
-        height: auto;
-    }
-
-    .partners_wrap {
         height: auto;
     }
 
     .partners {
         margin-top: 2rem;
+    }
+
+    .partner_img {
+        width: 5rem;
+        height: 5.375rem;
+    }
+
+    .partners_item span {
+        font-size: 1rem;
     }
 
     .calc {
@@ -953,11 +1079,27 @@ header img {
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 425px) and (max-width: 600px) {
     html, body{
         font-size: 12px;
     }
 
+    .title_style {
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .mortgage_steps, .mortgage_promo_img_section {
+        width: 100%;
+    }
+
+    .mortgage_steps {
+        flex-direction: column-reverse;
+    }
+
+    .mortgage_key::after {
+        display: none;
+    }
 
     .partners, .calc {
         height: auto;
@@ -972,10 +1114,6 @@ header img {
         max-height: unset;
     }
 
-    .calc_wrap, .partners_wrap {
-        border-radius: 0rem;
-    }
-
     .param::after {
         content: '';
         width: 0;
@@ -985,7 +1123,7 @@ header img {
         width: 33.3%;
     }
 
-    .calc, .partners_wrap{
+    .calc {
         height: auto;
     }
 
@@ -1004,6 +1142,7 @@ header img {
 
     .param_item {
         margin-right: 0;
+        margin-left: 0;
     }
 
     .result {
@@ -1016,18 +1155,24 @@ header img {
         flex-wrap: wrap;
     }
 
-    .calc_wrap h2 {
+    .param {
+        padding: 2rem 3.3rem;
+    }
+
+    .calc h2 {
         text-align: center;
     }
 
     .conditions div {
         width: 50%;
         height: 85px;
+        text-align: center;
     }
 
     .count_start {
         margin: 0;
         margin-top: -33%;
+        width: 10rem;
     }
 
     .partners {
@@ -1083,13 +1228,25 @@ header img {
         font-size: 12px;
     }
 
-    .partners, .calc {
-        height: auto;
+    .title_style {
+        margin: 1rem auto;
+        text-align: center;
     }
 
-    .title_style {
-        margin-left: 0;
-        text-align: center;
+    .mortgage_steps, .mortgage_promo_img_section {
+        width: 100%;
+    }
+
+    .mortgage_steps {
+        flex-direction: column-reverse;
+    }
+
+    .mortgage_key::after {
+        display: none;
+    }
+
+    .partners, .calc {
+        height: auto;
     }
 
     .mortgage_steps_item, .main_section_wrap, .calc, .param, .conditions, .partners, .advantages_item {
@@ -1101,20 +1258,20 @@ header img {
         max-height: unset;
     }
 
-    .calc_wrap, .partners_wrap {
-        border-radius: 0rem;
-    }
-
     .param::after {
         content: '';
         width: 0;
+    }
+
+    .param {
+        padding: 2rem 3.3rem;
     }
 
     .partners_item {
         width: 33.3%;
     }
 
-    .calc, .partners_wrap{
+    .calc {
         height: auto;
     }
 
@@ -1132,6 +1289,7 @@ header img {
 
     .param_item {
         margin-right: 0;
+        margin-left: 0;
     }
 
     .result {
@@ -1144,18 +1302,20 @@ header img {
         flex-wrap: wrap;
     }
 
-    .calc_wrap h2 {
+    .calc h2 {
         text-align: center;
     }
 
     .conditions div {
         width: 50%;
         height: 85px;
+        text-align: center;
     }
 
     .count_start {
         margin: 0;
         margin-top: -33%;
+        width: 9rem;
     }
 
     .partners {
@@ -1207,13 +1367,25 @@ header img {
         font-size: 10px;
     } 
 
-    .partners, .calc {
-        height: auto;
+    .title_style {
+        margin: 1rem auto;
+        text-align: center;
     }
 
-    .title_style {
-        margin-left: 0;
-        text-align: center;
+    .mortgage_steps, .mortgage_promo_img_section {
+        width: 100%;
+    }
+
+    .mortgage_steps {
+        flex-direction: column-reverse;
+    }
+
+    .mortgage_key::after {
+        display: none;
+    }
+
+    .partners, .calc {
+        height: auto;
     }
 
     .mortgage_steps_item, .main_section_wrap, .calc, .param, .conditions, .partners, .advantages_item {
@@ -1225,10 +1397,6 @@ header img {
         max-height: unset;
     }
 
-    .calc_wrap, .partners_wrap {
-        border-radius: 0rem;
-    }
-
     .param::after {
         content: '';
         width: 0;
@@ -1238,7 +1406,7 @@ header img {
         width: 33.3%;
     }
 
-    .calc, .partners_wrap{
+    .calc {
         height: auto;
     }
 
@@ -1268,7 +1436,7 @@ header img {
         flex-wrap: wrap;
     }
 
-    .calc_wrap h2 {
+    .calc h2 {
         text-align: center;
     }
 
