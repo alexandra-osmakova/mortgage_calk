@@ -186,7 +186,6 @@ header img {
 }
 
 .main_section_wrap {
-    max-width: 1600px;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -229,7 +228,7 @@ header img {
 .param {
     position: relative;
     padding: 1.56rem 4.25rem 0rem 1.875rem;
-    width: 65%;
+    width: 50%;
     margin-bottom: 1rem;
 }
 
@@ -242,12 +241,13 @@ header img {
     height: 88%;
     position: absolute;
     top: 1.5rem;
-    right: 0;
+    right: -4rem;
 }
 
 .conditions {
     width: 35%;
     padding: 1.625rem 3.25rem;
+    margin: 0 auto;
 }
 
 .param_item {
@@ -371,7 +371,9 @@ header img {
 }
 
 .irs-line-mid {
+    left: 4%;
     height: 0.5rem;
+    width: 100%;
 }
 
 .irs-line {
@@ -787,63 +789,15 @@ header img {
     body {
         font-size: 36px;
     }
-    .irs-line-mid {
-        background-position: 0 0.2rem;
-    }
 
-    .irs-line-right {
-        height: 15px;
-        background-position: 66px 7px;      /* px used instead of rem */
-    }
-
-    .irs-grid {
-        width: 99%!important;
-        left: 0%!important;
-    }
-
-    .irs-grid-text {
-        margin-left: -7.7%!important;
-    }
-
-    .irs-line-left {
-        height: 15px;
-        background-position: -4px -49px;      /* px used instead of rem */
-        left: 0;
-}
-
-    .irs-slider {
-        top: 100px !important;
-        background-position: 10px -2.18rem !important;
-        width: 2rem;
-        height: 46px;     /* px used instead of rem */
-    }
-
-    .irs-slider:hover {
-        top: 100px !important;
-        background-position: 10px -2.18rem !important; 
-    }
-
-
-    .irs-line-mid {
-        left: 7%;
-    }
-
-    .irs-bar {
-        height: 31px;
-        top: 97px;
-        background-position: -10px -39px;
-    }
-
-    .irs-bar-edge {
-        top: 3.2rem;
+    .main_section_wrap {
+        width: 70%;
     }
 
     .param {
+        width: 38%;
+        margin: 0 auto 1rem;
         padding: 1rem 3rem 1rem 1rem;
-    }
-
-    .param::after {
-        right: -1.38rem;
     }
 
     .count_section {
@@ -861,6 +815,11 @@ header img {
 
     .partners_item span {
         font-size: 1rem;
+    }
+
+    .calc h2 {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 
@@ -870,53 +829,6 @@ header img {
         font-size: 30px;
     }
 
-    .irs-line-mid {
-        background-position: 0 0.2rem;
-    }
-
-    .irs-line-right {
-        height: 15px;
-        background-position: 48px 6px;      
-    }
-
-    .irs-grid {
-        width: 99%!important;
-        left: 0%!important;
-    }
-
-    .irs-grid-text {
-        margin-left: -7.7%!important;
-    }
-
-    .irs-line-left {
-        height: 15px;
-        background-position: 0 -50px;
-        left: -12px;
-}
-
-    .irs-slider {
-        top: 69px !important;
-        background-position: 5px -2.18rem !important;
-        width: 2rem;
-        height: 46px;   
-    }
-
-    .irs-slider:hover {
-        top: 69px !important;
-        background-position: 5px -2.18rem !important;
-    }
-
-
-    .irs-line-mid {
-        left: 7%;
-    }
-
-    .irs-bar {
-        height: 31px;
-        top: 79px;
-        background-position: -10px -39px; 
-    }
-
     .count_section {
         width: 95%;
     }
@@ -932,6 +844,16 @@ header img {
 
     .partners_item span {
         font-size: 1rem;
+    }
+
+    .param {
+        width: 49%;
+        margin: 0 auto 1rem;
+    }
+
+    .calc h2 {
+        width: 85%;
+        margin: 0 auto;
     }
 
 }
@@ -945,8 +867,19 @@ header img {
     .main_section_wrap {
         width: 85%;
     }
+    .irs-line-right {
+        width: 24%;
+    }
+}
 
-    
+@media screen and (min-width: 1465px) and (max-width: 1600px) { 
+    html, body {
+        font-size: 18px;
+    }
+
+    .irs-line-right {
+        width: 16%;
+    }
 }
 
 @media screen and (min-width: 965px) {
@@ -964,10 +897,6 @@ header img {
 
     .partners, .param {
         padding: 1rem 0 0;
-    }
-
-    .param::after{
-        display: none;
     }
 
 }
