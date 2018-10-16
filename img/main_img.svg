@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="910px" height="844px" viewBox="0 0 910 844" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Passport</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="309.308864%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0DB8F7" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="403.763881%" gradientTransform="translate(0.500000,1.000000),scale(0.484848,1.000000),rotate(90.000000),translate(-0.500000,-1.000000)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0DB8F7" stop-opacity="0.15" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Ипотека" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ипотека-Wide" transform="translate(-955.000000, -176.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1920" height="2620"></rect>
+            <g id="Графика" transform="translate(1055.000000, 276.000000)">
+                <g id="Group" opacity="0.616164435" stroke-width="1" fill-rule="evenodd" transform="translate(328.000000, 40.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" x="2" y="6" width="260" height="394"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="76" y="304" width="160" height="50"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="76" y="352" width="160" height="50"></rect>
+                    <path d="M1,401 L1,29" id="Line" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,29 L236,29" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M25,4.63157895 L260,4.63157895" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M25,4.63157895 L6,21.5789474" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M261,4.63157895 L242,21.5789474" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M236,30 L236,402" id="Line-3" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M264,17 L264,389" id="Line-3" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,303 L236,303" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,289 L220,289" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M10,329 L53,329" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,401 L235,402" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,401 L235,402" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M50,365 L66,365" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M50,373 L66,373" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M50,381 L60,381" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M71,41 L71,278" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M75,353 L235,353" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M75,305 L75,401" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M115,305 L115,401.5" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M155,305 L155,401.5" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M195,305 L195,401.5" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="50" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="50" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="96" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="96" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="144" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="144" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="190" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="190" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="236" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="#FFFFFF" transform="translate(31.000000, 381.000000) rotate(-270.000000) translate(-31.000000, -381.000000) " x="11" y="371" width="40" height="20" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="236" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="50" width="28" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="96" width="28" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="144" width="28" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="190" width="28" height="28" rx="4"></rect>
+                    <path d="M264,389 L242,402" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="236" width="28" height="28" rx="4"></rect>
+                </g>
+                <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(122.000000, 124.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" x="2" y="6" width="260" height="394"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="76" y="304" width="160" height="50"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="76" y="352" width="160" height="50"></rect>
+                    <path d="M1,401 L1,29" id="Line" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,29 L236,29" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M25,4.63157895 L260,4.63157895" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M25,4.63157895 L6,21.5789474" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M261,4.63157895 L242,21.5789474" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M236,30 L236,402" id="Line-3" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M264,17 L264,389" id="Line-3" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,303 L236,303" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,289 L220,289" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M10,329 L53,329" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,401 L235,402" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M1,401 L235,402" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M50,365 L66,365" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M50,373 L66,373" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M50,381 L60,381" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M71,41 L71,278" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M75,353 L235,353" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M75,305 L75,401" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M115,305 L115,401.5" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M155,305 L155,401.5" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M195,305 L195,401.5" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="50" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="50" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="96" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="96" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="144" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="144" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="190" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="190" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="92" y="236" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="#FFFFFF" transform="translate(31.000000, 381.000000) rotate(-270.000000) translate(-31.000000, -381.000000) " x="11" y="371" width="40" height="20" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="164" y="236" width="54" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="50" width="28" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="96" width="28" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="144" width="28" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="190" width="28" height="28" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="#FFFFFF" x="63" y="304" width="64" height="26" rx="4"></rect>
+                    <path d="M264,389 L242,402" id="Line-2" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                    <rect id="Rectangle" stroke="#0DB8F7" stroke-width="4" fill="url(#linearGradient-1)" x="22" y="236" width="28" height="28" rx="4"></rect>
+                </g>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 350.000000)" stroke="#0DB8F7">
+                    <g id="Group-2" stroke-width="4">
+                        <path d="M16.6548894,38.5743491 C16.225647,36.4524774 16,34.2534401 16,32 C16,14.326888 29.8791728,0 47,0 C64.1208272,0 78,14.326888 78,32 C78,34.772848 77.6583435,37.4633237 77.0161152,40.0290172 C86.2238675,48.4405816 92,60.5457468 92,74 C92,99.4050985 71.4050985,120 46,120 C20.5949015,120 0,99.4050985 0,74 C0,59.7492015 6.48031848,47.0119625 16.6548894,38.5743491 Z" id="Combined-Shape" fill-opacity="0.15" fill="#0DB8F7"></path>
+                        <path d="M51,83 L69,69" id="Line-9" stroke-linecap="round"></path>
+                        <path d="M44,103 L25,91" id="Line-4" stroke-linecap="round"></path>
+                        <path d="M47,60 L34.5,51" id="Line-10" stroke-linecap="round"></path>
+                        <path d="M49,46 L60,35" id="Line-12" stroke-linecap="round"></path>
+                        <path d="M41,176 L47,46 L41,176 Z M53,176 L49,46 L53,176 Z M42,176 L53,176 L42,176 Z" id="Combined-Shape" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M47,46 L39,23" id="Line-13" stroke-linecap="round"></path>
+                    </g>
+                    <path d="M50,176 L98,176" id="Line-11" stroke-width="4" stroke-linecap="round"></path>
+                </g>
+                <path d="M418,528 C418,510.326888 432.774603,496 451,496 C469.225397,496 484,510.326888 484,528 L418,528 Z" id="Combined-Shape" stroke="#0DB8F7" stroke-width="4" fill="url(#radialGradient-2)" fill-rule="evenodd" stroke-linejoin="round"></path>
+                <path d="M518,528 C518,510.326888 532.774603,496 551,496 C569.225397,496 584,510.326888 584,528 L518,528 Z" id="Combined-Shape" stroke="#0DB8F7" stroke-width="4" fill="url(#radialGradient-2)" fill-rule="evenodd" stroke-linejoin="round"></path>
+                <path d="M618,528 C618,510.326888 632.774603,496 651,496 C669.225397,496 684,510.326888 684,528 L618,528 Z" id="Combined-Shape" stroke="#0DB8F7" stroke-width="4" fill="url(#radialGradient-2)" fill-rule="evenodd" stroke-linejoin="round"></path>
+                <path d="M591,443 L684,443" id="Line-11" stroke="#0DB8F7" stroke-width="4" opacity="0.621837798" stroke-linecap="round"></path>
+                <path d="M395,459 L684,459" id="Line-11" stroke="#0DB8F7" stroke-width="4" opacity="0.621837798" stroke-linecap="round"></path>
+                <path d="M12,547 L684,547" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M51,619 L684,619" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M34,585 L684,585" id="Line-11" stroke="#0DB8F7" stroke-width="4" stroke-linecap="round" stroke-dasharray="22"></path>
+                <path d="M146.412027,60.2750878 C148.539569,48.2210928 158.663936,38.9259316 171.109581,38.0651507 C177.109705,28.4202889 187.805083,22 200,22 C212.194917,22 222.890295,28.4202889 228.890419,38.0651507 C241.336064,38.9259316 251.460431,48.2210928 253.587973,60.2750878 C255.076113,61.7278517 256,63.7560332 256,66 C256,70.418278 252.418278,74 248,74 L152,74 C147.581722,74 144,70.418278 144,66 C144,63.7560332 144.923887,61.7278517 146.412027,60.2750878 Z" id="Combined-Shape" stroke="#0DB8F7" stroke-width="4" fill-opacity="0.15" fill="#0DB8F7" fill-rule="evenodd" opacity="0.269438244"></path>
+            </g>
+        </g>
+    </g>
+</svg>
