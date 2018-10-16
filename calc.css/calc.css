@@ -526,14 +526,21 @@ header img {
 }
 
 .fourth_partner {
-    background-image: url(../img/tinkoff-insurance-general-logo-5.png);
+    background-image: url(../img/deltacredit1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .fifth_partner {
-    background-image: url(../img/x-partner.png);
+    background-image: url(../img/raif.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sixth_partner {
+    background-image: url(../img/open_bank.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
