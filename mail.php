@@ -4,7 +4,7 @@
     $email = $_POST['email'];
     $telephone = $_POST['phone-number'];
 
-    $email_from = 'lolololo@gmail.com';
+    $email_from = 'ipoteka@gmail.com';
 
     $email_subject = "New Form Submission";
 
@@ -14,7 +14,7 @@
 
 
 
-    
+
     $to = "579531535@etlgr.com, 206315401@etlgr.com";
 
     $headers = "From: $email_from \r\n";
