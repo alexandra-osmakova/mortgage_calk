@@ -118,10 +118,13 @@ function count() {
 }
 
 var modal_window = document.getElementsByClassName('modal_window')[0];
+var promo_img_section__btn = document.getElementsByClassName('promo_img_section__btn')[0];
 var modal_overlay = document.getElementById('modal_overlay');
 var close_modal_btn = document.getElementById('close_btn');
 var header_modal_btn = document.getElementsByClassName('promo_img_section__btn')[0];
 
+
+promo_img_section__btn.addEventListener('click', modal_on )
 count_start.addEventListener("click", modal_on);
 header_modal_btn.addEventListener("click", modal_on);
 close_modal_btn.addEventListener('click', close_modal);
