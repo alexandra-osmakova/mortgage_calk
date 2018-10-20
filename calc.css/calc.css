@@ -37,6 +37,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Gotham Pro";
+    -webkit-overflow-scrolling: touch;
 }
 
 header {
@@ -373,6 +374,7 @@ header img {
 
 .count_start {
     outline: none;
+    border: unset;
     margin-right: -0.125rem;
     margin-left: 4.5rem;
 
@@ -733,6 +735,17 @@ header img {
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+
+input[type=text],
+input[type=submit]{
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
 }
 
 @media screen and (min-width: 2001px) and (max-width: 2560px) {
@@ -1463,3 +1476,5 @@ header img {
         }
     
     }
+
+
