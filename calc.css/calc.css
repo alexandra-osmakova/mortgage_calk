@@ -45,11 +45,62 @@ header {
     height: 5.06rem;
     padding: 1.56rem 7.56rem;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0rem 0.7rem 1rem rgba(0, 43, 59, 0.32);
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
 }
 
 header img {
     width: 5rem;
 }
+
+
+.preview {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/header_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 4rem;
+    position: relative;
+}
+
+.preview_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.3;
+}
+
+.preview_content {
+    width: 100%;
+    position: relative;
+}
+
+.preview_content .title_style {
+    color: #ffffff;
+}
+
+.preview_content p {
+    color: #ffffff;
+    display: block;
+    width: 50%;
+    margin-left: 6.75rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
 
 .mortgage_key {
     width: 80%;
@@ -619,7 +670,58 @@ header img {
     letter-spacing: normal;
     color: #4a4a4a;
   }
-  
+
+footer {
+    width: 100%;
+    position: relative;
+}
+
+.footer_content {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    padding: 2rem 3rem;
+    width: 40%;
+    background-color: #ffffff;
+}
+
+.footer_content h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0db8f7;
+    display: block;
+    width: 100%;
+}
+
+.footer_content span, .footer_tel {
+    text-decoration: none;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #4A4A4A;
+    letter-spacing: 0;
+}
+
+.footer_tel {
+    font-weight: bold;
+}
+
+.confidential_politics {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #0DB8F7;
+}
+
+.ya-taxi-widget {
+    width: 100%;
+    margin: 2rem auto;
+    max-width: unset!important;
+}
 
 .modal_window {
     display: none;
